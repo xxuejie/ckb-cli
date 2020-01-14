@@ -9,14 +9,14 @@ license = "MIT"
 serde = { version = "1.0", features = ["rc"] }
 serde_derive = "1.0"
 
-ckb-types = { git = "https://github.com/xxuejie/ckb", rev = "1914c78" }
-ckb-script = { git = "https://github.com/xxuejie/ckb", rev = "1914c78", default-features = false }
-ckb-jsonrpc-types = { git = "https://github.com/xxuejie/ckb", rev = "1914c78" }
-ckb-hash = { git = "https://github.com/xxuejie/ckb", rev = "1914c78" }
-ckb-error = { git = "https://github.com/xxuejie/ckb", rev = "1914c78" }
+ckb-types = { git = "https://github.com/xxuejie/ckb", rev = "c168f38" }
+ckb-script = { git = "https://github.com/xxuejie/ckb", rev = "c168f38", default-features = false }
+ckb-jsonrpc-types = { git = "https://github.com/xxuejie/ckb", rev = "c168f38" }
+ckb-hash = { git = "https://github.com/xxuejie/ckb", rev = "c168f38" }
+ckb-error = { git = "https://github.com/xxuejie/ckb", rev = "c168f38" }
 
 [dev-dependencies]
-ckb-crypto = { git = "https://github.com/xxuejie/ckb", rev = "1914c78", features = ["secp"] }
+ckb-crypto = { git = "https://github.com/xxuejie/ckb", rev = "c168f38", features = ["secp"] }
 
 [features]
 default = ["ckb-script/default"]
